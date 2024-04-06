@@ -1,0 +1,100 @@
+@font-face {
+    font-family: 'iransance';
+    src: url(./Files/fonts/IRANSansWeb.cdb118d6.woff2);
+}
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: iransance;
+}
+
+body{
+    max-width: 1400px;
+    margin: auto;
+    
+}
+
+ul{
+    list-style: none;
+    width: 68%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    justify-content: space-between;
+   
+}
+
+li{
+    display: flex;
+    justify-content: space-between;
+    color: black;
+
+}
+
+
+.details{
+    width: 35%;
+    padding-top: 5px;
+    
+}
+#heading{
+    color: black;
+   display: flex;
+    margin-bottom: 6px;
+}
+.time{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 36px;
+    font-size: 14px;
+    color: rgb(107, 106, 106);
+    background-color: rgb(235, 233, 233);
+    border-radius: 5px;
+    margin: 12px 0 10px 0;
+}
+
+.detail{
+    height: 55px;
+    display: flex;
+    border-width: 0px 0px 1.9px 0px;
+    border-style: solid;
+    border-color: rgb(221, 221, 221);; 
+    justify-content: space-between;
+    align-items: center;  
+}
+
+.detail-name{
+     color: gray;  
+}
+
+.name-content{
+     color: rgb(209, 19, 19);
+}
+
+.detail-content{
+     color: black;
+}
+
+
+.image{
+    width: 45%;
+    height: 430px;
+    margin: 5px 5px 0 5px;
+    border-radius: 8px;
+}
+
+.description{
+      display: flex;
+      flex-direction: column;
+      margin-top: 35px;
+}
+
+#description-heading{
+    margin-bottom: 10px;
+    font-size: 18px;
+}

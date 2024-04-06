@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'Iransans';
+    src: url(./Files/fonts/IRANSansWeb.cdb118d6.woff2)
+}
+
+* {
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+    direction: rtl;
+    font-family: Iransans;
+}
+
+body {
+    max-width: 1400px;
+    margin: auto;
+}
+
+ul {
+    list-style: none;
+    width: 80%;
+    margin: 24px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-color: rgb(221, 221, 221);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+    width: 32%;
+    padding: 12px;
+    margin: 0.666%;
+}
+
+.post-link {
+    width: 32%;
+    margin: 0.666%;
+    text-decoration: none;
+}
+
+/* only the li that is child of post-link is selected */
+.post-link li {
+    width: 100%;
+    margin: 0;
+}
+
+.post-text-container {
+    width: 55%;
+}
+
+.post-title {
+    color: black;
+    font-size: 16px;
+    height: 65px;
+}
+
+.post-detail {
+    color: gray;
+    margin-bottom: 4px;
+    font-size: 14px;
+}
+
+/* the tag that has classes post-detail and special */
+.post-detail.special {
+    font-size: 12px;
+}
+
+/* the tag that has classes post-detail, special and red */
+.post-detail.special.red {
+    color: rgb(206, 7, 7);
+    font-size: 16px;
+}
+
+.post-image {
+    width: 140px;
+    border-radius: 4px;
+}
